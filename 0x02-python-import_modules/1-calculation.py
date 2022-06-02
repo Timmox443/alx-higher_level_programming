@@ -3,5 +3,4 @@ if __name__ == "__main__":
     from calculator_1 import *
     a = 10
     b = 5
-    q
-    print(f"{a} + {b} = {add(a, b)}\n{a} - {b} = {sub(a, b)}\n{a} * {b} = {mul(a, b)}\n{a} / {b} = {div(a, b)}") 
+    print("{:d} + {:d} = {:d}\n{:d} + {:d} = {:d}\n{:d} + {:d} = {:d}\n{:d} + {:d} = {:d}\n".format(a, b, add(a, b), a, b, sub(a, b), a, b, mul(a, b), a, b, div(a, b))) 
